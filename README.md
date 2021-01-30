@@ -73,4 +73,14 @@ Y donde:
      
  Los parametros que se utilizan para iniciar la ejecución del simulador, inician desde sched, por lo tanto si desea realizar una prueba utilize lo siguiente:
  
+      ./5G-air-simulator nbCell 0 150 1000 1200 5 1 15 1 60 256 4 1 1 3 1 12 48 320 8 256 1
+      
+Unas consideraciones que deben hacer al momento de utilizar el 5G-air-simulator, es que para usar las herramientas disponibles en la carpeta TOOLS, se debe guardar la salida en un archvio .txt, para eso posterior al comando anterior se debe colocar lo siguiente:
  
+      > salida.txt
+      
+Una vez guardada la salida de la simulación en un archivo .txt, para utilizar las herramientas disponibles en la carpeta TOOLS, utilize el siguiente comando:
+
+      TOOLS/make_plr.awk salida.txt
+      
+Otra consideración a realizar es que los parametros puestos son estaticos hasta que termine la simulación, es decir, variable como cbrT o cbrS mantendra siempre sus valores, nunca variaran.
