@@ -71,6 +71,6 @@ Y donde:
      [boW]    -  Es la duración de la ventana de retroceso del RACH
      (seed)   -  Puede variar de entre 1 a 50
      
- Los parametros que se utilizan para iniciar la ejecución del simulador, inician desde sched, por lo tanto si desea realizar una prueba utilize los siguiente:
+ Los parametros que se utilizan para iniciar la ejecución del simulador, inician desde sched, por lo tanto si desea realizar una prueba utilize lo siguiente:
  
  
